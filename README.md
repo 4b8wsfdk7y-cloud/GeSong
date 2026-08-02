@@ -1,6 +1,6 @@
 <div align="center">
 
-# Song Ge · Patrick
+#  PatrickSong
 
 **PPE undergraduate at Wuhan University**
 
