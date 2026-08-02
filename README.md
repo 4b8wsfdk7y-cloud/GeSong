@@ -4,6 +4,8 @@
 
 **PPE undergraduate at Wuhan University**
 
+**Exchanging at University of Chicago**
+
 Applied AI systems · LLM evaluation · Computational social science
 
 [LLM Audit](https://github.com/4b8wsfdk7y-cloud/cgss-gender-attitude-llm-audit) ·
