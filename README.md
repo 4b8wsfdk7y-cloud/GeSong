@@ -1,12 +1,12 @@
 <div align="center">
 
-#  PatrickSong
+#  Patrick Song
 
 **PPE undergraduate at Wuhan University**
 
 **Exchanging at University of Chicago**
 
-Applied AI systems · LLM evaluation · Computational social science
+Applied AI systems · LLM evaluation · Computational social science · Social Psychology
 
 [LLM Audit](https://github.com/4b8wsfdk7y-cloud/cgss-gender-attitude-llm-audit) ·
 [Policy Agent](https://github.com/4b8wsfdk7y-cloud/acef-policy-agent-case-study) ·
