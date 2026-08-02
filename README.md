@@ -1,68 +1,43 @@
 # Song Ge (Patrick)
 
-PPE undergraduate at Wuhan University working across quantitative social science, policy research, and applied AI agents. My research uses R, Python, and LaTeX to study political development, public attitudes, and the limits of empirical identification. My engineering work focuses on retrieval, structured LLM workflows, evaluation, and human-in-the-loop operations.
+**PPE @ Wuhan University** · Applied AI systems · LLM evaluation · Computational social science
 
-## Research and AI evaluation
+I build and evaluate AI systems for policy and social-science work. My interests sit at the boundary of reliable LLM workflows, empirical measurement, and public-interest technology.
+
+> Fluent output is not enough: a useful system should preserve evidence, expose uncertainty, and remain answerable to human judgment.
+
+## Selected work
 
 ### [CGSS Gender-Attitude LLM Audit](https://github.com/4b8wsfdk7y-cloud/cgss-gender-attitude-llm-audit)
 
-An estimand-indexed evaluation of whether locally served LLM synthetic respondents reproduce the distribution and social structure of five CGSS gender-attitude items. It compares model outputs with human resampling envelopes, supervised prediction benchmarks, and joint-response donor baselines while keeping restricted microdata local.
+An estimand-indexed audit of whether locally served LLM synthetic respondents preserve human response distributions, subgroup heterogeneity, and joint response structure in CGSS gender-attitude items. The project uses human resampling envelopes, supervised benchmarks, and local-first data handling.
 
-`R` `Python` `survey research` `LLM evaluation` `reproducibility`
-
-### [Uneven Change in Gender-Equality Attitudes](https://github.com/4b8wsfdk7y-cloud/cgss-gender-attitudes-replication)
-
-Replication materials for a three-wave CGSS study of measurement structure and heterogeneous correlates across gender-attitude domains. The project uses survey weights, CR2 clustered inference, stacked coefficient tests, ordinal CFA, and item-level validation.
-
-`R` `CGSS` `measurement` `cluster-robust inference`
-
-### [Development and Social Mobilization in Authoritarian Taiwan](https://github.com/4b8wsfdk7y-cloud/taiwan-development-politics)
-
-A single-case time-series study separating aggregate growth, human capital, urbanization, and public discussion during Taiwan's authoritarian development and transition period.
-
-`R` `Newey-West` `VAR` `structural breaks` `development politics`
-
-### [When Significant Interactions Fail Diagnostic Tests](https://github.com/4b8wsfdk7y-cloud/authoritarian-growth-paths)
-
-A cross-national authoritarian-panel case study showing how a theoretically attractive interaction loses credibility under country trends, region-by-year shocks, lead placebos, and alternative identification checks.
-
-`R` `panel data` `fixed effects` `identification diagnostics`
-
-## Research tools and templates
-
-### [reg2paper](https://github.com/4b8wsfdk7y-cloud/reg2paper)
-
-A lightweight R toolkit that turns `lm()` and `glm()` objects into publication-oriented Word tables and model-diagnostic figures for social-science workflows.
-
-`R` `modelsummary` `flextable` `diagnostics`
-
-### [whuppt](https://github.com/4b8wsfdk7y-cloud/whuppt)
-
-A Wuhan University Beamer template with Chinese typesetting, 16:9 academic layouts, section pages, navigation headers, and within-section progress markers.
-
-`LaTeX` `Beamer` `XeLaTeX` `academic presentations`
-
-## Applied AI agents
-
-### [Internship AI Agent Portfolio](https://github.com/4b8wsfdk7y-cloud/intern)
-
-Sanitized, runnable demonstrations of legal review, financial reporting, and customer-service workflows. The public version preserves state logic, retrieval, structured outputs, and tests while excluding employer infrastructure, identifiers, customer records, and internal documents.
-
-`Python` `Flask` `RAG` `state machines` `human escalation`
+`R` `Python` `LLM evaluation` `survey research` `reproducibility`
 
 ### [Environmental Policy Monitoring Agent](https://github.com/4b8wsfdk7y-cloud/acef-policy-agent-case-study)
 
-A sanitized reference implementation and architecture case study for source monitoring, document normalization, deduplication, structured LLM analysis, traceable reports, and human review.
+A sanitized reference implementation derived from production work on environmental-policy monitoring: source acquisition, document normalization, deduplication, structured analysis, traceable reporting, and required human review.
 
-`Node.js` `web acquisition` `LLM workflows` `policy research`
+`Node.js` `web acquisition` `structured LLM workflows` `policy research`
 
-## Working principles
+### [reg2paper](https://github.com/4b8wsfdk7y-cloud/reg2paper)
 
-- Claims should be proportional to identification strength.
-- Restricted data and production credentials stay outside public repositories.
-- LLM systems need evaluation, evidence traceability, and explicit escalation paths.
-- Research artifacts should make the analysis boundary and reproduction path visible.
+A lightweight R toolkit that turns `lm()` and `glm()` models into publication-oriented tables and diagnostic figures for social-science workflows.
 
-## Main stack
+`R` `modelsummary` `flextable` `diagnostics`
 
-`R` · `tidyverse` · `ggplot2` · `Python` · `pandas` · `LaTeX` · `Git` · OpenAI-compatible APIs
+## Research practice
+
+- Treat model outputs as objects of evaluation, not substitutes for evidence.
+- Match empirical claims to identification strength and make failure cases visible.
+- Keep restricted data, production credentials, and stakeholder information outside public repositories.
+
+## Toolkit
+
+`Python` · `R` · `tidyverse` · `pandas` · `ggplot2` · `LaTeX` · `Git` · OpenAI-compatible APIs
+
+## Other research
+
+- [Gender-equality attitudes: three-wave CGSS replication](https://github.com/4b8wsfdk7y-cloud/cgss-gender-attitudes-replication)
+- [Development and social mobilization in authoritarian Taiwan](https://github.com/4b8wsfdk7y-cloud/taiwan-development-politics)
+- [Identification diagnostics for cross-national panel research](https://github.com/4b8wsfdk7y-cloud/authoritarian-growth-paths)
